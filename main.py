@@ -2,6 +2,8 @@ import streamlit as st
 import random
 import string
 
+st.set_page_config('Password Generator - Uzair Bin Asif')
+
 def generate_pass(lth, use_digits, use_special):
     characters = string.ascii_letters
     if use_digits:
